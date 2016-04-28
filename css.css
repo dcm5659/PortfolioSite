@@ -1,0 +1,46 @@
+* {margin: 0; padding: 0;}
+
+header {
+	height: 10vh;
+	background-color: #303536;
+}
+
+#headerContent {
+	text-align: center;
+	font-family: 'Hind', sans-serif;
+	font-size: 1em;
+	color: white;
+	margin: auto;
+}
+
+#headerContent a{
+	margin-top: 30px;
+	text-decoration: none;
+	color: white;
+}
+
+.contentContainer {
+	width: 60%;
+	margin: auto;
+}
+
+#mainSplash {
+	margin-top: 30px;
+	
+}
+
+#splashLogo{
+	margin-bottom: 20px;
+}
+
+#mainLogo {
+	display: block;
+	margin: auto;
+}
+
+#headerName {
+	margin: auto;
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Signika', sans-serif;
+}
