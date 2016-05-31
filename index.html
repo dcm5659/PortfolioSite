@@ -6,15 +6,16 @@
     <link href='https://fonts.googleapis.com/css?family=Average+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
+    <script src="JS/myjs.js"></script>
 </head>
 <body>
 	
 	<header>
 		<div id = "headerContent">
 			<nav>
-				<a href="#">PROJECTS</a>
-				<a href="media/Resume.pdf" target="_blank">RESUME</a>
+				<a href="#">PROJECTS</a>				
 				<a href="#">ABOUT ME</a>
+				<a href="media/Resume.pdf" target="_blank">RESUME</a>
 			</nav>
 		</div>
 	</header>
@@ -27,22 +28,37 @@
 			</div>
 			<div id = "headerName">
 				Daniel Martin | Front-end Developer + UI/UX Designer
-				<br>
-				<br>
-				Site currently under maintenance. If you have any questions you can contact me at dcm5659@rit.edu or check my resume. Sorry for any inconvenience!
 			</div>
 		</div>
 	</section>
 
-	<!--Main spread
+	<!--Main spread-->
 	<section  class = "contentWrapper">
 		<article>
 			<h1>About Me</h1>
-			<h1>Project 1</h1>
-			<h1>Project 2</h1>
-			<h1>Project 3</h1>
+			My name is Daniel Martin, and I am a New Media Interactive Development student at RIT. My two biggest passions are Web and Game Design, and I have spent a lot of time developing as well. 
 		</article>
-	</section>-->
+		<section id = "projectsWrapper">
+			<h1>Projects</h1>
+			<article>
+				<img src="media/snowballin1.png" alt="SnowballinGameplay" height="150" width="240" class = "pimg">
+				<h2>Snowballin</h2>
+				<p>A Katamari Damacy-esque game developed aklsdjlkajsdhfglkajshdflkasjhdflkashj </p>
+				<button type = "button" onclick = "openWindow('http://google.com')">View Full Project</button>
+			</article>
+			<article>
+				<img src="media/crashtactics.jpg" alt="CrashTacticsBoard" height="150" width="240" class = "pimg">
+				<h2>Crash Tactics</h2>
+				<p>Crash Tactics is a simple, fast paced board game made by myself and two other group members. A full design docdescribing it's rules and development can be found <a href="https://docs.google.com/document/d/1OgMvdYUieK-sMZdqIhMb_R26OcjfPAU3BEBGwXt69Qc/edit?usp=sharing">here</a>.</p>
+			</article>
+			<article>
+				<img src="media/api.png" alt="Website Image" height="150" width="240" class = "pimg">
+				<h2>PC Part Finder</h2>
+				<p>A web app I developed to help locate parts for simple PC building utilizing the Best Buy and Google Maps APIs.</p>
+				<button type = "button" onclick = "openWindow('https://people.rit.edu/dcm5659/330/project3/')">View Full Project</button>
+			</article>
+		</section>
+	</section>
 	<footer>
 		<span>email | phone</span>
 		<span>&copy; Copyright</span>
