@@ -1,0 +1,34 @@
+body {
+	font-family: 'Hind', sans-serif;
+	background-color: #F8FFFC;
+}
+
+
+div {
+	margin: auto;
+	text-align: center;
+}
+
+span {
+	padding: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+	-webkit-transition: 0.3s ease; 
+    transition: 0.3s ease;
+}
+
+a:hover{
+	color: lightgray;	
+}
+
+h2 {
+	font-size: 30px;
+}
+
+p {
+	font-size: 25px;
+}
+
